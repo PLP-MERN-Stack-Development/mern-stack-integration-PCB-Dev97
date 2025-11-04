@@ -1,1 +1,37 @@
+mern-stack-integration/
+│
+├── client/                     ← React front end
+│   ├── .env.example
+│   ├── package.json
+│   ├── vite.config.js
+│   ├── public/
+│   └── src/
+│       ├── assets/
+│       ├── components/
+│       ├── pages/
+│       ├── services/
+│       ├── hooks/
+│       ├── context/
+│       ├── utils/
+│       ├── App.jsx
+│       └── main.jsx
+│
+├── server/                     ← Express / Node back end
+│   ├── .env.example
+│   ├── package.json
+│   ├── server.js (or app.js)
+│   ├── config/
+│   │   └── db.js
+│   ├── models/
+│   │   ├── Post.js
+│   │   └── Category.js
+│   ├── routes/
+│   │   ├── posts.js
+│   │   └── categories.js
+│   ├── controllers/
+│   ├── middleware/
+│   │   └── errorHandler.js
+│   └── validators/             ← e.g., using Joi or express-validator
+│
+└── README.md                   ← project overview, instructions, etc.
 
